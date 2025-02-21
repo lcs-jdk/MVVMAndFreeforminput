@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1FCB040B2D68DB7F00BCC991 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCB04052D68DB7F00BCC991 /* Preview Assets.xcassets */; };
+		1FCB040C2D68DB7F00BCC991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCB04072D68DB7F00BCC991 /* Assets.xcassets */; };
+		1FCB040D2D68DB7F00BCC991 /* PowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB04082D68DB7F00BCC991 /* PowerView.swift */; };
+		1FCB040E2D68DB7F00BCC991 /* MVVMAndFreeforminputApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB04092D68DB7F00BCC991 /* MVVMAndFreeforminputApp.swift */; };
+		1FCB04132D68DC1F00BCC991 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB04122D68DC1F00BCC991 /* Power.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1F249FA12D677AEA00215D92 /* MVVMAndFreeforminput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMAndFreeforminput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FCB04052D68DB7F00BCC991 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FCB04072D68DB7F00BCC991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FCB04082D68DB7F00BCC991 /* PowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerView.swift; sourceTree = "<group>"; };
+		1FCB04092D68DB7F00BCC991 /* MVVMAndFreeforminputApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMAndFreeforminputApp.swift; sourceTree = "<group>"; };
+		1FCB04122D68DC1F00BCC991 /* Power.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Power.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		1F249FA32D677AEA00215D92 /* MVVMAndFreeforminput */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MVVMAndFreeforminput;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1F249F9E2D677AEA00215D92 /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		1F249F982D677AEA00215D92 = {
 			isa = PBXGroup;
 			children = (
-				1F249FA32D677AEA00215D92 /* MVVMAndFreeforminput */,
+				1FCB040A2D68DB7F00BCC991 /* MVVMAndFreeforminput */,
 				1F249FA22D677AEA00215D92 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,50 @@
 				1F249FA12D677AEA00215D92 /* MVVMAndFreeforminput.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1FCB04062D68DB7F00BCC991 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1FCB04072D68DB7F00BCC991 /* Assets.xcassets */,
+				1FCB04052D68DB7F00BCC991 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FCB040A2D68DB7F00BCC991 /* MVVMAndFreeforminput */ = {
+			isa = PBXGroup;
+			children = (
+				1FCB04092D68DB7F00BCC991 /* MVVMAndFreeforminputApp.swift */,
+				1FCB04102D68DB8500BCC991 /* Model */,
+				1FCB04112D68DB9900BCC991 /* ViewModels */,
+				1FCB040F2D68DB8200BCC991 /* Views */,
+				1FCB04082D68DB7F00BCC991 /* PowerView.swift */,
+				1FCB04062D68DB7F00BCC991 /* Preview Content */,
+			);
+			path = MVVMAndFreeforminput;
+			sourceTree = "<group>";
+		};
+		1FCB040F2D68DB8200BCC991 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1FCB04102D68DB8500BCC991 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1FCB04122D68DC1F00BCC991 /* Power.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1FCB04112D68DB9900BCC991 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +108,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				1F249FA32D677AEA00215D92 /* MVVMAndFreeforminput */,
 			);
 			name = MVVMAndFreeforminput;
 			packageProductDependencies = (
@@ -109,6 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FCB040B2D68DB7F00BCC991 /* Preview Assets.xcassets in Resources */,
+				1FCB040C2D68DB7F00BCC991 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FCB040D2D68DB7F00BCC991 /* PowerView.swift in Sources */,
+				1FCB04132D68DC1F00BCC991 /* Power.swift in Sources */,
+				1FCB040E2D68DB7F00BCC991 /* MVVMAndFreeforminputApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
