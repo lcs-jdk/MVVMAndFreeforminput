@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F786E3C2D68DC9000E7E003 /* PowerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F786E3B2D68DC9000E7E003 /* PowerViewModel.swift */; };
 		1FCB040B2D68DB7F00BCC991 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCB04052D68DB7F00BCC991 /* Preview Assets.xcassets */; };
 		1FCB040C2D68DB7F00BCC991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCB04072D68DB7F00BCC991 /* Assets.xcassets */; };
 		1FCB040D2D68DB7F00BCC991 /* PowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB04082D68DB7F00BCC991 /* PowerView.swift */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		1F249FA12D677AEA00215D92 /* MVVMAndFreeforminput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMAndFreeforminput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F786E3B2D68DC9000E7E003 /* PowerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerViewModel.swift; sourceTree = "<group>"; };
 		1FCB04052D68DB7F00BCC991 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1FCB04072D68DB7F00BCC991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FCB04082D68DB7F00BCC991 /* PowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		1FCB04112D68DB9900BCC991 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				1F786E3B2D68DC9000E7E003 /* PowerViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				1FCB040D2D68DB7F00BCC991 /* PowerView.swift in Sources */,
 				1FCB04132D68DC1F00BCC991 /* Power.swift in Sources */,
 				1FCB040E2D68DB7F00BCC991 /* MVVMAndFreeforminputApp.swift in Sources */,
+				1F786E3C2D68DC9000E7E003 /* PowerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
