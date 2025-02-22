@@ -11,7 +11,10 @@ import SwiftUI
 struct MVVMAndFreeforminputApp: App {
     var body: some Scene {
         WindowGroup {
-            PowerView()
+            NavigationStack{
+                PowerView()
+
+            }
         }
     }
 }
