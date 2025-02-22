@@ -7,9 +7,11 @@
 
 import Foundation
 
-struct Power {
+struct Power: Identifiable {
+    
     
     // MARK: Stored properties
+    let id = UUID()
     
     // The base of the power can hold any numeric value
     var base: Double

@@ -81,8 +81,19 @@ struct PowerView: View {
             TextField("Exponent", text: $viewModel.providedExponent)
                 .textFieldStyle(.roundedBorder)
  
-            // Extra space at bottom
-            Spacer()
+            // Show a title for the history
+            HStack {
+                Text("History")
+                    .bold()
+                Spacer()
+            }
+            .padding(.vertical)
+             
+            // Iterate over the history of results
+            List(viewModel.resultHistory) { priorResult in
+                PowerItemView(power: priorResult)
+            }
+            .listStyle(.plain)
         }
         .padding()
     }
